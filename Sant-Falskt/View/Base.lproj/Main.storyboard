@@ -24,7 +24,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AZs-12-Agv">
-                                <rect key="frame" x="87" y="585" width="240" height="53"/>
+                                <rect key="frame" x="87" y="564" width="240" height="53"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="53" id="7iV-9n-hvk"/>
                                 </constraints>
@@ -34,7 +34,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HIGH SCORE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xzZ-d9-dmq">
-                                <rect key="frame" x="97" y="110" width="220" height="34"/>
+                                <rect key="frame" x="100.33333333333333" y="110" width="213.66666666666669" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="xbb-iY-NNw"/>
                                 </constraints>
@@ -42,87 +42,93 @@
                                 <color key="textColor" red="0.8744159937" green="0.86666518449999996" blue="0.86666673419999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="jrH-Ah-Q2W">
-                                <rect key="frame" x="84.000000000000014" y="192" width="192.33333333333337" height="119"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="FFe-sC-o6V">
+                                <rect key="frame" x="84.333333333333329" y="189" width="245.66666666666669" height="119"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MATEMATIK" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gwD-Op-6PG">
-                                        <rect key="frame" x="0.0" y="0.0" width="192.33333333333334" height="33"/>
-                                        <fontDescription key="fontDescription" name="OverpassMono-Regular" family="Overpass Mono" pointSize="26"/>
-                                        <color key="textColor" red="0.8744159937" green="0.86666518449999996" blue="0.86666673419999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RÄTTSTAVNING" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ee6-6B-QlJ">
-                                        <rect key="frame" x="0.0" y="43" width="192.33333333333334" height="33"/>
-                                        <fontDescription key="fontDescription" name="OverpassMono-Regular" family="Overpass Mono" pointSize="26"/>
-                                        <color key="textColor" red="0.8744159937" green="0.86666518449999996" blue="0.86666673419999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ENGELSKA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rCv-dw-oKE">
-                                        <rect key="frame" x="0.0" y="86" width="192.33333333333334" height="33"/>
-                                        <fontDescription key="fontDescription" name="OverpassMono-Regular" family="Overpass Mono" pointSize="26"/>
-                                        <color key="textColor" red="0.8744159937" green="0.86666518449999996" blue="0.86666673419999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="jrH-Ah-Q2W">
+                                        <rect key="frame" x="0.0" y="0.0" width="192.33333333333334" height="119"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MATEMATIK" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gwD-Op-6PG">
+                                                <rect key="frame" x="0.0" y="0.0" width="192.33333333333334" height="33"/>
+                                                <fontDescription key="fontDescription" name="OverpassMono-Regular" family="Overpass Mono" pointSize="26"/>
+                                                <color key="textColor" red="0.8744159937" green="0.86666518449999996" blue="0.86666673419999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RÄTTSTAVNING" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ee6-6B-QlJ">
+                                                <rect key="frame" x="0.0" y="43" width="192.33333333333334" height="33"/>
+                                                <fontDescription key="fontDescription" name="OverpassMono-Regular" family="Overpass Mono" pointSize="26"/>
+                                                <color key="textColor" red="0.8744159937" green="0.86666518449999996" blue="0.86666673419999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ENGELSKA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rCv-dw-oKE">
+                                                <rect key="frame" x="0.0" y="86" width="192.33333333333334" height="33"/>
+                                                <fontDescription key="fontDescription" name="OverpassMono-Regular" family="Overpass Mono" pointSize="26"/>
+                                                <color key="textColor" red="0.8744159937" green="0.86666518449999996" blue="0.86666673419999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hxD-rm-XAK">
+                                        <rect key="frame" x="213.33333333333337" y="0.0" width="32.333333333333343" height="119"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xhg-KK-cdv">
+                                                <rect key="frame" x="0.0" y="0.0" width="32.333333333333336" height="33"/>
+                                                <fontDescription key="fontDescription" name="OverpassMono-Regular" family="Overpass Mono" pointSize="26"/>
+                                                <color key="textColor" red="0.8744159937" green="0.86666518449999996" blue="0.86666673419999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="04" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8rj-na-BDl">
+                                                <rect key="frame" x="0.0" y="43" width="32.333333333333336" height="33"/>
+                                                <fontDescription key="fontDescription" name="OverpassMono-Regular" family="Overpass Mono" pointSize="26"/>
+                                                <color key="textColor" red="0.8744159937" green="0.86666518449999996" blue="0.86666673419999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="21" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ORg-p6-wKy">
+                                                <rect key="frame" x="0.0" y="86" width="32.333333333333336" height="33"/>
+                                                <fontDescription key="fontDescription" name="OverpassMono-Regular" family="Overpass Mono" pointSize="26"/>
+                                                <color key="textColor" red="0.8744159937" green="0.86666518449999996" blue="0.86666673419999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hxD-rm-XAK">
-                                <rect key="frame" x="298" y="192" width="32.333333333333314" height="119"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xhg-KK-cdv">
-                                        <rect key="frame" x="0.0" y="0.0" width="32.333333333333336" height="33"/>
-                                        <fontDescription key="fontDescription" name="OverpassMono-Regular" family="Overpass Mono" pointSize="26"/>
-                                        <color key="textColor" red="0.8744159937" green="0.86666518449999996" blue="0.86666673419999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="04" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8rj-na-BDl">
-                                        <rect key="frame" x="0.0" y="43" width="32.333333333333336" height="33"/>
-                                        <fontDescription key="fontDescription" name="OverpassMono-Regular" family="Overpass Mono" pointSize="26"/>
-                                        <color key="textColor" red="0.8744159937" green="0.86666518449999996" blue="0.86666673419999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="21" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ORg-p6-wKy">
-                                        <rect key="frame" x="0.0" y="86" width="32.333333333333336" height="33"/>
-                                        <fontDescription key="fontDescription" name="OverpassMono-Regular" family="Overpass Mono" pointSize="26"/>
-                                        <color key="textColor" red="0.8744159937" green="0.86666518449999996" blue="0.86666673419999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                            </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MATEMATIK" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vfV-VK-XhB">
-                                <rect key="frame" x="84" y="451" width="192.33333333333334" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="OverpassMono-Regular" family="Overpass Mono" pointSize="26"/>
-                                <color key="textColor" red="0.95276242489999996" green="0.8614724278" blue="0.3567128181" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="21" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6gd-MV-po8">
-                                <rect key="frame" x="298" y="451" width="32.333333333333336" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="OverpassMono-Regular" family="Overpass Mono" pointSize="26"/>
-                                <color key="textColor" red="0.98735648389999997" green="0.79940038920000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="SENASTE POÄNG:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Oq-Jq-O37">
-                                <rect key="frame" x="95" y="399" width="225" height="36"/>
-                                <fontDescription key="fontDescription" name="OverpassMono-Regular" family="Overpass Mono" pointSize="26"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SENASTE SPEL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Oq-Jq-O37">
+                                <rect key="frame" x="112.00000000000001" y="388" width="190.33333333333337" height="26"/>
+                                <fontDescription key="fontDescription" name="Matiz" family="Matiz" pointSize="26"/>
                                 <color key="textColor" red="0.92049264649999996" green="0.91604582209999996" blue="0.92493947089999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="65" translatesAutoresizingMaskIntoConstraints="NO" id="sbU-Pc-QJa">
+                                <rect key="frame" x="96.333333333333329" y="424" width="221.33333333333337" height="29.333333333333314"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MATEMATIK" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vfV-VK-XhB">
+                                        <rect key="frame" x="0.0" y="0.0" width="127.66666666666667" height="29.333333333333332"/>
+                                        <fontDescription key="fontDescription" name="OverpassMono-Regular" family="Overpass Mono" pointSize="23"/>
+                                        <color key="textColor" red="0.95276242489999996" green="0.8614724278" blue="0.3567128181" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="21" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6gd-MV-po8">
+                                        <rect key="frame" x="192.66666666666669" y="0.0" width="28.666666666666657" height="29.333333333333332"/>
+                                        <fontDescription key="fontDescription" name="OverpassMono-Regular" family="Overpass Mono" pointSize="23"/>
+                                        <color key="textColor" red="0.98735648389999997" green="0.79940038920000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.1231357842" green="0.12093568640000001" blue="0.1593659137" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="3Oq-Jq-O37" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87.000000000000014" id="45c-5n-qhE"/>
-                            <constraint firstItem="xzZ-d9-dmq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="110" id="6ee-z8-R4B"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="AZs-12-Agv" secondAttribute="bottom" constant="49" id="DqA-EN-1TJ"/>
-                            <constraint firstItem="jrH-Ah-Q2W" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="84.000000000000014" id="MAa-Sf-jFb"/>
-                            <constraint firstItem="jrH-Ah-Q2W" firstAttribute="top" secondItem="hxD-rm-XAK" secondAttribute="top" id="SaI-Um-nzF"/>
-                            <constraint firstItem="jrH-Ah-Q2W" firstAttribute="bottom" secondItem="hxD-rm-XAK" secondAttribute="bottom" id="Zfg-IJ-mbl"/>
-                            <constraint firstItem="hxD-rm-XAK" firstAttribute="leading" secondItem="jrH-Ah-Q2W" secondAttribute="trailing" constant="21.666666666666629" id="f6m-FI-EbU"/>
-                            <constraint firstItem="AZs-12-Agv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="g4D-h3-lDz"/>
-                            <constraint firstItem="xzZ-d9-dmq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jj7-rT-n6h"/>
-                            <constraint firstItem="AZs-12-Agv" firstAttribute="top" secondItem="3Oq-Jq-O37" secondAttribute="bottom" constant="62" id="ndY-Nj-NEo"/>
-                            <constraint firstItem="jrH-Ah-Q2W" firstAttribute="top" secondItem="xzZ-d9-dmq" secondAttribute="bottom" constant="48" id="vDB-86-XBd"/>
-                            <constraint firstItem="xzZ-d9-dmq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="97" id="w6C-z2-uPd"/>
+                            <constraint firstItem="FFe-sC-o6V" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0nn-Gl-HMq"/>
+                            <constraint firstItem="FFe-sC-o6V" firstAttribute="top" secondItem="xzZ-d9-dmq" secondAttribute="bottom" constant="45" id="5Hf-YA-hgf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="AZs-12-Agv" secondAttribute="bottom" constant="70" id="WOF-Vp-G3V"/>
+                            <constraint firstItem="AZs-12-Agv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WfE-dI-ACG"/>
+                            <constraint firstItem="xzZ-d9-dmq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="110" id="aGp-jL-A3q"/>
+                            <constraint firstItem="3Oq-Jq-O37" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ewS-73-qEg"/>
+                            <constraint firstItem="3Oq-Jq-O37" firstAttribute="top" secondItem="FFe-sC-o6V" secondAttribute="bottom" constant="80" id="fKt-nt-UMh"/>
+                            <constraint firstItem="sbU-Pc-QJa" firstAttribute="top" secondItem="3Oq-Jq-O37" secondAttribute="bottom" constant="10" id="hTp-uU-GZg"/>
+                            <constraint firstItem="xzZ-d9-dmq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="obc-3o-5w3"/>
+                            <constraint firstItem="sbU-Pc-QJa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uMx-N1-EP7"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -237,6 +243,7 @@
                         <outlet property="questionLabel" destination="ejK-Ic-zNR" id="fxu-aV-Tcf"/>
                         <outlet property="timerBar" destination="3Bk-n8-oV5" id="WxC-jR-hla"/>
                         <outlet property="trueButton" destination="5gb-4g-W5y" id="dLE-ul-5xg"/>
+                        <segue destination="tJb-wc-dT1" kind="show" identifier="wrongAnswer" id="ASe-76-6vM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0d1-oX-d7t" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -248,25 +255,18 @@
             <objects>
                 <viewController id="tJb-wc-dT1" userLabel="gameOver" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kLQ-ZY-zEw">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FEL!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JH6-i5-hqZ">
-                                <rect key="frame" x="142" y="233" width="131" height="60"/>
+                                <rect key="frame" x="150" y="219" width="131" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Matiz" family="Matiz" pointSize="60"/>
                                 <color key="textColor" red="0.60552668570000001" green="0.33400845530000001" blue="0.30978977680000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Trist, men nu blev det" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U2j-xk-8To">
-                                <rect key="frame" x="88" y="73" width="239" height="163"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="OverpassMono-Regular" family="Overpass Mono" pointSize="30"/>
-                                <color key="textColor" red="0.8744159937" green="0.86666518449999996" blue="0.86666673419999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Din poäng: 12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gRA-7C-j7a">
-                                <rect key="frame" x="72" y="330" width="271" height="110"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DIN POÄNG:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gRA-7C-j7a">
+                                <rect key="frame" x="72" y="349" width="201" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="OverpassMono-Regular" family="Overpass Mono" pointSize="30"/>
                                 <color key="textColor" red="0.8744159937" green="0.86666518449999996" blue="0.86666673419999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -276,14 +276,29 @@
                                 <rect key="frame" x="88" y="466" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="32" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6yF-DT-xdL">
+                                <rect key="frame" x="272" y="349" width="69" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="OverpassMono-Regular" family="Overpass Mono" pointSize="30"/>
+                                <color key="textColor" red="0.8744159937" green="0.86666518449999996" blue="0.86666673419999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Trist, men nu blev det" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U2j-xk-8To">
+                                <rect key="frame" x="89" y="68" width="239" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="OverpassMono-Regular" family="Overpass Mono" pointSize="30"/>
+                                <color key="textColor" red="0.8744159937" green="0.86666518449999996" blue="0.86666673419999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.1614813165" green="0.15958550190000001" blue="0.20790652279999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="sg0-LB-bpo"/>
                     </view>
+                    <navigationItem key="navigationItem" id="RbF-Qc-HDN"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kfz-xm-QSy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1799" y="1643"/>
+            <point key="canvasLocation" x="1798.5507246376812" y="1642.663043478261"/>
         </scene>
         <!--info-->
         <scene sceneID="KVh-bt-Ney">

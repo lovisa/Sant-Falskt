@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BB13F22323FD7475009A1391 /* MathQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB13F22223FD7474009A1391 /* MathQuiz.swift */; };
 		BB13F22523FEC4FE009A1391 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB13F22423FEC4FE009A1391 /* MainTabController.swift */; };
+		BB60D63B240526F4004C454F /* WrongAnswerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB60D63A240526F4004C454F /* WrongAnswerVC.swift */; };
 		BB7A739323F5DD2100FFA520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB8AF6A223E35AE9002C63A0 /* Main.storyboard */; };
 		BB7A739723F60EC600FFA520 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7A739623F60EC600FFA520 /* Question.swift */; };
 		BB7A739923F62BC000FFA520 /* HighScoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7A739823F62BC000FFA520 /* HighScoreVC.swift */; };
@@ -51,6 +52,7 @@
 /* Begin PBXFileReference section */
 		BB13F22223FD7474009A1391 /* MathQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathQuiz.swift; sourceTree = "<group>"; };
 		BB13F22423FEC4FE009A1391 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		BB60D63A240526F4004C454F /* WrongAnswerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrongAnswerVC.swift; sourceTree = "<group>"; };
 		BB7A739623F60EC600FFA520 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		BB7A739823F62BC000FFA520 /* HighScoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoreVC.swift; sourceTree = "<group>"; };
 		BB7A739D23F74C9400FFA520 /* QuizMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizMachine.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				BB7B4D4523F377A2009812AC /* GameViewController.swift */,
 				BB7A739823F62BC000FFA520 /* HighScoreVC.swift */,
 				BB13F22423FEC4FE009A1391 /* MainTabController.swift */,
+				BB60D63A240526F4004C454F /* WrongAnswerVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB7A739E23F74C9400FFA520 /* QuizMachine.swift in Sources */,
+				BB60D63B240526F4004C454F /* WrongAnswerVC.swift in Sources */,
 				BB7B4D4423F34F52009812AC /* Extensions.swift in Sources */,
 				BB7B4D4623F377A2009812AC /* GameViewController.swift in Sources */,
 				BB8AF69D23E35AE9002C63A0 /* AppDelegate.swift in Sources */,
