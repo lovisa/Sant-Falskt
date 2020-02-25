@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB13F22323FD7475009A1391 /* MathQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB13F22223FD7474009A1391 /* MathQuiz.swift */; };
+		BB13F22523FEC4FE009A1391 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB13F22423FEC4FE009A1391 /* MainTabController.swift */; };
+		BB7A739323F5DD2100FFA520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB8AF6A223E35AE9002C63A0 /* Main.storyboard */; };
+		BB7A739723F60EC600FFA520 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7A739623F60EC600FFA520 /* Question.swift */; };
+		BB7A739923F62BC000FFA520 /* HighScoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7A739823F62BC000FFA520 /* HighScoreVC.swift */; };
+		BB7A739E23F74C9400FFA520 /* QuizMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7A739D23F74C9400FFA520 /* QuizMachine.swift */; };
+		BB7B4D4423F34F52009812AC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7B4D4323F34F51009812AC /* Extensions.swift */; };
+		BB7B4D4623F377A2009812AC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7B4D4523F377A2009812AC /* GameViewController.swift */; };
+		BB8AF69D23E35AE9002C63A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8AF69C23E35AE9002C63A0 /* AppDelegate.swift */; };
+		BB8AF69F23E35AE9002C63A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8AF69E23E35AE9002C63A0 /* SceneDelegate.swift */; };
+		BB8AF6A723E35AE9002C63A0 /* Sant_Falskt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB8AF6A523E35AE9002C63A0 /* Sant_Falskt.xcdatamodeld */; };
+		BB8AF6A923E35AEE002C63A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB8AF6A823E35AEE002C63A0 /* Assets.xcassets */; };
+		BB8AF6AC23E35AEE002C63A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB8AF6AA23E35AEE002C63A0 /* LaunchScreen.storyboard */; };
+		BB8AF6B723E35AEE002C63A0 /* Sant_FalsktTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8AF6B623E35AEE002C63A0 /* Sant_FalsktTests.swift */; };
+		BB8AF6C223E35AEE002C63A0 /* Sant_FalsktUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8AF6C123E35AEE002C63A0 /* Sant_FalsktUITests.swift */; };
+		BB8AF6D723E41C1D002C63A0 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = BB8AF6D223E41C1D002C63A0 /* OFL.txt */; };
+		BB8AF6D823E41C1D002C63A0 /* OverpassMono-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB8AF6D323E41C1D002C63A0 /* OverpassMono-SemiBold.ttf */; };
+		BB8AF6D923E41C1D002C63A0 /* OverpassMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB8AF6D423E41C1D002C63A0 /* OverpassMono-Bold.ttf */; };
+		BB8AF6DA23E41C1D002C63A0 /* OverpassMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB8AF6D523E41C1D002C63A0 /* OverpassMono-Regular.ttf */; };
+		BB8AF6DB23E41C1D002C63A0 /* OverpassMono-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB8AF6D623E41C1D002C63A0 /* OverpassMono-Light.ttf */; };
+		BB8AF6DF23E41C7B002C63A0 /* Matiz.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB8AF6DD23E41C7B002C63A0 /* Matiz.ttf */; };
+		BB8AF6E023E41C7B002C63A0 /* Freeware License.txt in Resources */ = {isa = PBXBuildFile; fileRef = BB8AF6DE23E41C7B002C63A0 /* Freeware License.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB8AF6B323E35AEE002C63A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB8AF69123E35AE9002C63A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB8AF69823E35AE9002C63A0;
+			remoteInfo = "Sant-Falskt";
+		};
+		BB8AF6BE23E35AEE002C63A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB8AF69123E35AE9002C63A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB8AF69823E35AE9002C63A0;
+			remoteInfo = "Sant-Falskt";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB13F22223FD7474009A1391 /* MathQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathQuiz.swift; sourceTree = "<group>"; };
+		BB13F22423FEC4FE009A1391 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		BB7A739623F60EC600FFA520 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		BB7A739823F62BC000FFA520 /* HighScoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoreVC.swift; sourceTree = "<group>"; };
+		BB7A739D23F74C9400FFA520 /* QuizMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizMachine.swift; sourceTree = "<group>"; };
+		BB7B4D4323F34F51009812AC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BB7B4D4523F377A2009812AC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		BB8AF69923E35AE9002C63A0 /* Sant-Falskt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sant-Falskt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB8AF69C23E35AE9002C63A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB8AF69E23E35AE9002C63A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BB8AF6A323E35AE9002C63A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB8AF6A623E35AE9002C63A0 /* Sant_Falskt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sant_Falskt.xcdatamodel; sourceTree = "<group>"; };
+		BB8AF6A823E35AEE002C63A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB8AF6AB23E35AEE002C63A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB8AF6AD23E35AEE002C63A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB8AF6B223E35AEE002C63A0 /* Sant-FalsktTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sant-FalsktTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB8AF6B623E35AEE002C63A0 /* Sant_FalsktTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sant_FalsktTests.swift; sourceTree = "<group>"; };
+		BB8AF6B823E35AEE002C63A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB8AF6BD23E35AEE002C63A0 /* Sant-FalsktUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sant-FalsktUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB8AF6C123E35AEE002C63A0 /* Sant_FalsktUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sant_FalsktUITests.swift; sourceTree = "<group>"; };
+		BB8AF6C323E35AEE002C63A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB8AF6D223E41C1D002C63A0 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		BB8AF6D323E41C1D002C63A0 /* OverpassMono-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OverpassMono-SemiBold.ttf"; sourceTree = "<group>"; };
+		BB8AF6D423E41C1D002C63A0 /* OverpassMono-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OverpassMono-Bold.ttf"; sourceTree = "<group>"; };
+		BB8AF6D523E41C1D002C63A0 /* OverpassMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OverpassMono-Regular.ttf"; sourceTree = "<group>"; };
+		BB8AF6D623E41C1D002C63A0 /* OverpassMono-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OverpassMono-Light.ttf"; sourceTree = "<group>"; };
+		BB8AF6DD23E41C7B002C63A0 /* Matiz.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Matiz.ttf; sourceTree = "<group>"; };
+		BB8AF6DE23E41C7B002C63A0 /* Freeware License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Freeware License.txt"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB8AF69623E35AE9002C63A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8AF6AF23E35AEE002C63A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8AF6BA23E35AEE002C63A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB7A739A23F74B7900FFA520 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BB7A739623F60EC600FFA520 /* Question.swift */,
+				BB13F22223FD7474009A1391 /* MathQuiz.swift */,
+				BB7A739D23F74C9400FFA520 /* QuizMachine.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB7A739B23F74B9300FFA520 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BB8AF6A223E35AE9002C63A0 /* Main.storyboard */,
+				BB8AF6AA23E35AEE002C63A0 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BB7A739C23F74BCB00FFA520 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BB7B4D4523F377A2009812AC /* GameViewController.swift */,
+				BB7A739823F62BC000FFA520 /* HighScoreVC.swift */,
+				BB13F22423FEC4FE009A1391 /* MainTabController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BB8AF69023E35AE9002C63A0 = {
+			isa = PBXGroup;
+			children = (
+				BB8AF69B23E35AE9002C63A0 /* Sant-Falskt */,
+				BB8AF6B523E35AEE002C63A0 /* Sant-FalsktTests */,
+				BB8AF6C023E35AEE002C63A0 /* Sant-FalsktUITests */,
+				BB8AF69A23E35AE9002C63A0 /* Products */,
+				BB8AF6E123E41D0D002C63A0 /* Fonts */,
+			);
+			sourceTree = "<group>";
+		};
+		BB8AF69A23E35AE9002C63A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB8AF69923E35AE9002C63A0 /* Sant-Falskt.app */,
+				BB8AF6B223E35AEE002C63A0 /* Sant-FalsktTests.xctest */,
+				BB8AF6BD23E35AEE002C63A0 /* Sant-FalsktUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB8AF69B23E35AE9002C63A0 /* Sant-Falskt */ = {
+			isa = PBXGroup;
+			children = (
+				BB8AF69C23E35AE9002C63A0 /* AppDelegate.swift */,
+				BB7B4D4323F34F51009812AC /* Extensions.swift */,
+				BB8AF69E23E35AE9002C63A0 /* SceneDelegate.swift */,
+				BB7A739A23F74B7900FFA520 /* Model */,
+				BB7A739B23F74B9300FFA520 /* View */,
+				BB7A739C23F74BCB00FFA520 /* Controller */,
+				BB8AF6A823E35AEE002C63A0 /* Assets.xcassets */,
+				BB8AF6AD23E35AEE002C63A0 /* Info.plist */,
+				BB8AF6A523E35AE9002C63A0 /* Sant_Falskt.xcdatamodeld */,
+			);
+			path = "Sant-Falskt";
+			sourceTree = "<group>";
+		};
+		BB8AF6B523E35AEE002C63A0 /* Sant-FalsktTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB8AF6B623E35AEE002C63A0 /* Sant_FalsktTests.swift */,
+				BB8AF6B823E35AEE002C63A0 /* Info.plist */,
+			);
+			path = "Sant-FalsktTests";
+			sourceTree = "<group>";
+		};
+		BB8AF6C023E35AEE002C63A0 /* Sant-FalsktUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB8AF6C123E35AEE002C63A0 /* Sant_FalsktUITests.swift */,
+				BB8AF6C323E35AEE002C63A0 /* Info.plist */,
+			);
+			path = "Sant-FalsktUITests";
+			sourceTree = "<group>";
+		};
+		BB8AF6D123E41C1D002C63A0 /* Overpass_Mono */ = {
+			isa = PBXGroup;
+			children = (
+				BB8AF6D223E41C1D002C63A0 /* OFL.txt */,
+				BB8AF6D323E41C1D002C63A0 /* OverpassMono-SemiBold.ttf */,
+				BB8AF6D423E41C1D002C63A0 /* OverpassMono-Bold.ttf */,
+				BB8AF6D523E41C1D002C63A0 /* OverpassMono-Regular.ttf */,
+				BB8AF6D623E41C1D002C63A0 /* OverpassMono-Light.ttf */,
+			);
+			path = Overpass_Mono;
+			sourceTree = "<group>";
+		};
+		BB8AF6DC23E41C7B002C63A0 /* Matiz */ = {
+			isa = PBXGroup;
+			children = (
+				BB8AF6DD23E41C7B002C63A0 /* Matiz.ttf */,
+				BB8AF6DE23E41C7B002C63A0 /* Freeware License.txt */,
+			);
+			path = Matiz;
+			sourceTree = "<group>";
+		};
+		BB8AF6E123E41D0D002C63A0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BB8AF6DC23E41C7B002C63A0 /* Matiz */,
+				BB8AF6D123E41C1D002C63A0 /* Overpass_Mono */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB8AF69823E35AE9002C63A0 /* Sant-Falskt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB8AF6C623E35AEE002C63A0 /* Build configuration list for PBXNativeTarget "Sant-Falskt" */;
+			buildPhases = (
+				BB8AF69523E35AE9002C63A0 /* Sources */,
+				BB8AF69623E35AE9002C63A0 /* Frameworks */,
+				BB8AF69723E35AE9002C63A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sant-Falskt";
+			productName = "Sant-Falskt";
+			productReference = BB8AF69923E35AE9002C63A0 /* Sant-Falskt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB8AF6B123E35AEE002C63A0 /* Sant-FalsktTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB8AF6C923E35AEE002C63A0 /* Build configuration list for PBXNativeTarget "Sant-FalsktTests" */;
+			buildPhases = (
+				BB8AF6AE23E35AEE002C63A0 /* Sources */,
+				BB8AF6AF23E35AEE002C63A0 /* Frameworks */,
+				BB8AF6B023E35AEE002C63A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB8AF6B423E35AEE002C63A0 /* PBXTargetDependency */,
+			);
+			name = "Sant-FalsktTests";
+			productName = "Sant-FalsktTests";
+			productReference = BB8AF6B223E35AEE002C63A0 /* Sant-FalsktTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB8AF6BC23E35AEE002C63A0 /* Sant-FalsktUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB8AF6CC23E35AEE002C63A0 /* Build configuration list for PBXNativeTarget "Sant-FalsktUITests" */;
+			buildPhases = (
+				BB8AF6B923E35AEE002C63A0 /* Sources */,
+				BB8AF6BA23E35AEE002C63A0 /* Frameworks */,
+				BB8AF6BB23E35AEE002C63A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB8AF6BF23E35AEE002C63A0 /* PBXTargetDependency */,
+			);
+			name = "Sant-FalsktUITests";
+			productName = "Sant-FalsktUITests";
+			productReference = BB8AF6BD23E35AEE002C63A0 /* Sant-FalsktUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB8AF69123E35AE9002C63A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = iLovisa;
+				TargetAttributes = {
+					BB8AF69823E35AE9002C63A0 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					BB8AF6B123E35AEE002C63A0 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = BB8AF69823E35AE9002C63A0;
+					};
+					BB8AF6BC23E35AEE002C63A0 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = BB8AF69823E35AE9002C63A0;
+					};
+				};
+			};
+			buildConfigurationList = BB8AF69423E35AE9002C63A0 /* Build configuration list for PBXProject "Sant-Falskt" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB8AF69023E35AE9002C63A0;
+			productRefGroup = BB8AF69A23E35AE9002C63A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB8AF69823E35AE9002C63A0 /* Sant-Falskt */,
+				BB8AF6B123E35AEE002C63A0 /* Sant-FalsktTests */,
+				BB8AF6BC23E35AEE002C63A0 /* Sant-FalsktUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB8AF69723E35AE9002C63A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8AF6D723E41C1D002C63A0 /* OFL.txt in Resources */,
+				BB7A739323F5DD2100FFA520 /* Main.storyboard in Resources */,
+				BB8AF6AC23E35AEE002C63A0 /* LaunchScreen.storyboard in Resources */,
+				BB8AF6A923E35AEE002C63A0 /* Assets.xcassets in Resources */,
+				BB8AF6D923E41C1D002C63A0 /* OverpassMono-Bold.ttf in Resources */,
+				BB8AF6E023E41C7B002C63A0 /* Freeware License.txt in Resources */,
+				BB8AF6D823E41C1D002C63A0 /* OverpassMono-SemiBold.ttf in Resources */,
+				BB8AF6DB23E41C1D002C63A0 /* OverpassMono-Light.ttf in Resources */,
+				BB8AF6DF23E41C7B002C63A0 /* Matiz.ttf in Resources */,
+				BB8AF6DA23E41C1D002C63A0 /* OverpassMono-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8AF6B023E35AEE002C63A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8AF6BB23E35AEE002C63A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB8AF69523E35AE9002C63A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB7A739E23F74C9400FFA520 /* QuizMachine.swift in Sources */,
+				BB7B4D4423F34F52009812AC /* Extensions.swift in Sources */,
+				BB7B4D4623F377A2009812AC /* GameViewController.swift in Sources */,
+				BB8AF69D23E35AE9002C63A0 /* AppDelegate.swift in Sources */,
+				BB8AF6A723E35AE9002C63A0 /* Sant_Falskt.xcdatamodeld in Sources */,
+				BB13F22323FD7475009A1391 /* MathQuiz.swift in Sources */,
+				BB7A739723F60EC600FFA520 /* Question.swift in Sources */,
+				BB13F22523FEC4FE009A1391 /* MainTabController.swift in Sources */,
+				BB7A739923F62BC000FFA520 /* HighScoreVC.swift in Sources */,
+				BB8AF69F23E35AE9002C63A0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8AF6AE23E35AEE002C63A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8AF6B723E35AEE002C63A0 /* Sant_FalsktTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8AF6B923E35AEE002C63A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8AF6C223E35AEE002C63A0 /* Sant_FalsktUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB8AF6B423E35AEE002C63A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB8AF69823E35AE9002C63A0 /* Sant-Falskt */;
+			targetProxy = BB8AF6B323E35AEE002C63A0 /* PBXContainerItemProxy */;
+		};
+		BB8AF6BF23E35AEE002C63A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB8AF69823E35AE9002C63A0 /* Sant-Falskt */;
+			targetProxy = BB8AF6BE23E35AEE002C63A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB8AF6A223E35AE9002C63A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB8AF6A323E35AE9002C63A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB8AF6AA23E35AEE002C63A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB8AF6AB23E35AEE002C63A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB8AF6C423E35AEE002C63A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB8AF6C523E35AEE002C63A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB8AF6C723E35AEE002C63A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54X8BDW26P;
+				INFOPLIST_FILE = "Sant-Falskt/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ilovisa.Sant-Falskt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB8AF6C823E35AEE002C63A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54X8BDW26P;
+				INFOPLIST_FILE = "Sant-Falskt/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ilovisa.Sant-Falskt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB8AF6CA23E35AEE002C63A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54X8BDW26P;
+				INFOPLIST_FILE = "Sant-FalsktTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ilovisa.Sant-FalsktTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sant-Falskt.app/Sant-Falskt";
+			};
+			name = Debug;
+		};
+		BB8AF6CB23E35AEE002C63A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54X8BDW26P;
+				INFOPLIST_FILE = "Sant-FalsktTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ilovisa.Sant-FalsktTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sant-Falskt.app/Sant-Falskt";
+			};
+			name = Release;
+		};
+		BB8AF6CD23E35AEE002C63A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54X8BDW26P;
+				INFOPLIST_FILE = "Sant-FalsktUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ilovisa.Sant-FalsktUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sant-Falskt";
+			};
+			name = Debug;
+		};
+		BB8AF6CE23E35AEE002C63A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54X8BDW26P;
+				INFOPLIST_FILE = "Sant-FalsktUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ilovisa.Sant-FalsktUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sant-Falskt";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB8AF69423E35AE9002C63A0 /* Build configuration list for PBXProject "Sant-Falskt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB8AF6C423E35AEE002C63A0 /* Debug */,
+				BB8AF6C523E35AEE002C63A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB8AF6C623E35AEE002C63A0 /* Build configuration list for PBXNativeTarget "Sant-Falskt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB8AF6C723E35AEE002C63A0 /* Debug */,
+				BB8AF6C823E35AEE002C63A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB8AF6C923E35AEE002C63A0 /* Build configuration list for PBXNativeTarget "Sant-FalsktTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB8AF6CA23E35AEE002C63A0 /* Debug */,
+				BB8AF6CB23E35AEE002C63A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB8AF6CC23E35AEE002C63A0 /* Build configuration list for PBXNativeTarget "Sant-FalsktUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB8AF6CD23E35AEE002C63A0 /* Debug */,
+				BB8AF6CE23E35AEE002C63A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BB8AF6A523E35AE9002C63A0 /* Sant_Falskt.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BB8AF6A623E35AE9002C63A0 /* Sant_Falskt.xcdatamodel */,
+			);
+			currentVersion = BB8AF6A623E35AE9002C63A0 /* Sant_Falskt.xcdatamodel */;
+			path = Sant_Falskt.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BB8AF69123E35AE9002C63A0 /* Project object */;
+}

@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nGo-Qf-Eab">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Matiz.ttf">
+            <string>Matiz</string>
+        </array>
+        <array key="OverpassMono-Regular.ttf">
+            <string>OverpassMono-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--statistics-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="highScore" id="BYZ-38-t0r" userLabel="statistics" customClass="HighScoreVC" customModule="Sant_Falskt" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AZs-12-Agv">
+                                <rect key="frame" x="87" y="585" width="240" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="7iV-9n-hvk"/>
+                                </constraints>
+                                <state key="normal" image="rensa"/>
+                                <connections>
+                                    <action selector="clearHighScore:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MMG-oI-7Fs"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HIGH SCORE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xzZ-d9-dmq">
+                                <rect key="frame" x="97" y="110" width="220" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="xbb-iY-NNw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Matiz" family="Matiz" pointSize="33"/>
+                                <color key="textColor" red="0.8744159937" green="0.86666518449999996" blue="0.86666673419999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="jrH-Ah-Q2W">
+                                <rect key="frame" x="84.000000000000014" y="192" width="192.33333333333337" height="119"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MATEMATIK" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gwD-Op-6PG">
+                                        <rect key="frame" x="0.0" y="0.0" width="192.33333333333334" height="33"/>
+                                        <fontDescription key="fontDescription" name="OverpassMono-Regular" family="Overpass Mono" pointSize="26"/>
+                                        <color key="textColor" red="0.8744159937" green="0.86666518449999996" blue="0.86666673419999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RÄTTSTAVNING" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ee6-6B-QlJ">
+                                        <rect key="frame" x="0.0" y="43" width="192.33333333333334" height="33"/>
+                                        <fontDescription key="fontDescription" name="OverpassMono-Regular" family="Overpass Mono" pointSize="26"/>
+                                        <color key="textColor" red="0.8744159937" green="0.86666518449999996" blue="0.86666673419999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ENGELSKA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rCv-dw-oKE">
+                                        <rect key="frame" x="0.0" y="86" width="192.33333333333334" height="33"/>
+                                        <fontDescription key="fontDescription" name="OverpassMono-Regular" family="Overpass Mono" pointSize="26"/>
+                                        <color key="textColor" red="0.8744159937" green="0.86666518449999996" blue="0.86666673419999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hxD-rm-XAK">
+                                <rect key="frame" x="298" y="192" width="32.333333333333314" height="119"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xhg-KK-cdv">
+                                        <rect key="frame" x="0.0" y="0.0" width="32.333333333333336" height="33"/>
+                                        <fontDescription key="fontDescription" name="OverpassMono-Regular" family="Overpass Mono" pointSize="26"/>
+                                        <color key="textColor" red="0.8744159937" green="0.86666518449999996" blue="0.86666673419999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="04" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8rj-na-BDl">
+                                        <rect key="frame" x="0.0" y="43" width="32.333333333333336" height="33"/>
+                                        <fontDescription key="fontDescription" name="OverpassMono-Regular" family="Overpass Mono" pointSize="26"/>
+                                        <color key="textColor" red="0.8744159937" green="0.86666518449999996" blue="0.86666673419999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="21" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ORg-p6-wKy">
+                                        <rect key="frame" x="0.0" y="86" width="32.333333333333336" height="33"/>
+                                        <fontDescription key="fontDescription" name="OverpassMono-Regular" family="Overpass Mono" pointSize="26"/>
+                                        <color key="textColor" red="0.8744159937" green="0.86666518449999996" blue="0.86666673419999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MATEMATIK" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vfV-VK-XhB">
+                                <rect key="frame" x="84" y="451" width="192.33333333333334" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="OverpassMono-Regular" family="Overpass Mono" pointSize="26"/>
+                                <color key="textColor" red="0.95276242489999996" green="0.8614724278" blue="0.3567128181" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="21" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6gd-MV-po8">
+                                <rect key="frame" x="298" y="451" width="32.333333333333336" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="OverpassMono-Regular" family="Overpass Mono" pointSize="26"/>
+                                <color key="textColor" red="0.98735648389999997" green="0.79940038920000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="SENASTE POÄNG:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Oq-Jq-O37">
+                                <rect key="frame" x="95" y="399" width="225" height="36"/>
+                                <fontDescription key="fontDescription" name="OverpassMono-Regular" family="Overpass Mono" pointSize="26"/>
+                                <color key="textColor" red="0.92049264649999996" green="0.91604582209999996" blue="0.92493947089999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1231357842" green="0.12093568640000001" blue="0.1593659137" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="3Oq-Jq-O37" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87.000000000000014" id="45c-5n-qhE"/>
+                            <constraint firstItem="xzZ-d9-dmq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="110" id="6ee-z8-R4B"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="AZs-12-Agv" secondAttribute="bottom" constant="49" id="DqA-EN-1TJ"/>
+                            <constraint firstItem="jrH-Ah-Q2W" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="84.000000000000014" id="MAa-Sf-jFb"/>
+                            <constraint firstItem="jrH-Ah-Q2W" firstAttribute="top" secondItem="hxD-rm-XAK" secondAttribute="top" id="SaI-Um-nzF"/>
+                            <constraint firstItem="jrH-Ah-Q2W" firstAttribute="bottom" secondItem="hxD-rm-XAK" secondAttribute="bottom" id="Zfg-IJ-mbl"/>
+                            <constraint firstItem="hxD-rm-XAK" firstAttribute="leading" secondItem="jrH-Ah-Q2W" secondAttribute="trailing" constant="21.666666666666629" id="f6m-FI-EbU"/>
+                            <constraint firstItem="AZs-12-Agv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="g4D-h3-lDz"/>
+                            <constraint firstItem="xzZ-d9-dmq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jj7-rT-n6h"/>
+                            <constraint firstItem="AZs-12-Agv" firstAttribute="top" secondItem="3Oq-Jq-O37" secondAttribute="bottom" constant="62" id="ndY-Nj-NEo"/>
+                            <constraint firstItem="jrH-Ah-Q2W" firstAttribute="top" secondItem="xzZ-d9-dmq" secondAttribute="bottom" constant="48" id="vDB-86-XBd"/>
+                            <constraint firstItem="xzZ-d9-dmq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="97" id="w6C-z2-uPd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="waveform.path.ecg" catalog="system" id="cNA-O9-FKo"/>
+                    <navigationItem key="navigationItem" id="P7h-Cu-VxY"/>
+                    <connections>
+                        <outlet property="englishHighScore" destination="ORg-p6-wKy" id="vih-RY-ONx"/>
+                        <outlet property="lastScoreLabel" destination="3Oq-Jq-O37" id="gKR-ku-269"/>
+                        <outlet property="mathkHighScore" destination="Xhg-KK-cdv" id="zBE-aU-R8M"/>
+                        <outlet property="quizName" destination="vfV-VK-XhB" id="Mzh-py-8z7"/>
+                        <outlet property="score" destination="6gd-MV-po8" id="h9C-uX-upM"/>
+                        <outlet property="spellingHighScore" destination="8rj-na-BDl" id="L4f-on-QnO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1798.5507246376812" y="836.41304347826099"/>
+        </scene>
+        <!--game-->
+        <scene sceneID="fOd-WH-Liu">
+            <objects>
+                <viewController storyboardIdentifier="DestinationViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="N9q-zr-jhl" userLabel="game" customClass="GameViewController" customModule="Sant_Falskt" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cmO-Mh-mML">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="RA9-eq-mwg">
+                                <rect key="frame" x="45" y="473" width="324" height="153"/>
+                                <subviews>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5gb-4g-W5y" userLabel="santButton">
+                                        <rect key="frame" x="10" y="0.0" width="304" height="64"/>
+                                        <state key="normal" title="Sant" backgroundImage="santButton">
+                                            <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButton:" destination="N9q-zr-jhl" eventType="touchUpInside" id="Spq-Eq-c5L"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z2K-Fo-RcY" userLabel="falsktButton">
+                                        <rect key="frame" x="10" y="89" width="304" height="64"/>
+                                        <state key="normal" title="Falskt" backgroundImage="falsktButton">
+                                            <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerButton:" destination="N9q-zr-jhl" eventType="touchUpInside" id="2Ze-ih-wXL"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" progress="0.29999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="3Bk-n8-oV5">
+                                <rect key="frame" x="45" y="35" width="324" height="4"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="3" id="l54-sb-k1E"/>
+                                </constraints>
+                                <color key="progressTintColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="trackTintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </progressView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KACKERLACKAN KAN LEVA I NIO DAGAR UTAN HUVUD, INNAN DEN SVÄLTER IHJÄL?" textAlignment="center" lineBreakMode="middleTruncation" numberOfLines="5" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="ejK-Ic-zNR">
+                                <rect key="frame" x="72.666666666666657" y="218" width="268.66666666666674" height="155"/>
+                                <fontDescription key="fontDescription" name="Matiz" family="Matiz" pointSize="31"/>
+                                <color key="textColor" red="0.92049264647823847" green="0.91604582209911656" blue="0.92493947085736039" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="euw-WQ-cSn">
+                                <rect key="frame" x="166.33333333333334" y="81" width="81.333333333333343" height="28"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 / 50" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q9b-5a-Jee">
+                                        <rect key="frame" x="0.0" y="0.0" width="81.333333333333329" height="28"/>
+                                        <fontDescription key="fontDescription" name="OverpassMono-Regular" family="Overpass Mono" pointSize="22"/>
+                                        <color key="textColor" red="0.8744159937" green="0.86666518449999996" blue="0.86666673419999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xQI-Bh-5gY">
+                                <rect key="frame" x="329" y="58" width="30" height="46"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="22"/>
+                                <state key="normal" title="X">
+                                    <color key="titleColor" red="0.8744159937" green="0.86666518449999996" blue="0.86666673419999996" alpha="0.74526434075342463" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="cancelGame:" destination="N9q-zr-jhl" eventType="touchUpInside" id="PBU-2p-Gd0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1231357842" green="0.12093568640000001" blue="0.1593659137" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="3Bk-n8-oV5" firstAttribute="leading" secondItem="lew-Sd-9Nz" secondAttribute="leading" constant="45" id="LeJ-SR-OL8"/>
+                            <constraint firstItem="lew-Sd-9Nz" firstAttribute="trailing" secondItem="RA9-eq-mwg" secondAttribute="trailing" constant="45" id="PZx-Aw-4Tk"/>
+                            <constraint firstItem="RA9-eq-mwg" firstAttribute="leading" secondItem="lew-Sd-9Nz" secondAttribute="leading" constant="45" id="S4q-j5-b1l"/>
+                            <constraint firstItem="euw-WQ-cSn" firstAttribute="top" secondItem="3Bk-n8-oV5" secondAttribute="bottom" constant="43" id="SS8-ZK-3fP"/>
+                            <constraint firstItem="3Bk-n8-oV5" firstAttribute="centerX" secondItem="cmO-Mh-mML" secondAttribute="centerX" id="Sbg-FD-xmm"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xQI-Bh-5gY" secondAttribute="trailing" constant="35" id="Uzs-Rp-FOj"/>
+                            <constraint firstItem="RA9-eq-mwg" firstAttribute="centerX" secondItem="cmO-Mh-mML" secondAttribute="centerX" id="d0S-9a-hkC"/>
+                            <constraint firstItem="ejK-Ic-zNR" firstAttribute="centerX" secondItem="cmO-Mh-mML" secondAttribute="centerX" id="d5m-zi-zGc"/>
+                            <constraint firstItem="euw-WQ-cSn" firstAttribute="centerX" secondItem="cmO-Mh-mML" secondAttribute="centerX" id="f7s-zY-mWp"/>
+                            <constraint firstItem="RA9-eq-mwg" firstAttribute="top" secondItem="ejK-Ic-zNR" secondAttribute="bottom" constant="100" id="k0L-Ax-bUa"/>
+                            <constraint firstItem="xQI-Bh-5gY" firstAttribute="top" secondItem="3Bk-n8-oV5" secondAttribute="bottom" constant="20" id="o1C-hP-63V"/>
+                            <constraint firstItem="lew-Sd-9Nz" firstAttribute="trailing" secondItem="3Bk-n8-oV5" secondAttribute="trailing" constant="45" id="rhg-Fa-JIA"/>
+                            <constraint firstItem="3Bk-n8-oV5" firstAttribute="top" secondItem="lew-Sd-9Nz" secondAttribute="top" constant="35" id="tLf-9Z-3wc"/>
+                            <constraint firstItem="lew-Sd-9Nz" firstAttribute="bottom" secondItem="RA9-eq-mwg" secondAttribute="bottom" constant="90" id="tlS-ir-BCI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lew-Sd-9Nz"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" id="Wi4-fL-XaT"/>
+                    <navigationItem key="navigationItem" id="isE-qR-4sf"/>
+                    <connections>
+                        <outlet property="falseButton" destination="z2K-Fo-RcY" id="0l7-DU-AQM"/>
+                        <outlet property="pointsLabel" destination="Q9b-5a-Jee" id="qEt-KQ-kmx"/>
+                        <outlet property="questionLabel" destination="ejK-Ic-zNR" id="fxu-aV-Tcf"/>
+                        <outlet property="timerBar" destination="3Bk-n8-oV5" id="WxC-jR-hla"/>
+                        <outlet property="trueButton" destination="5gb-4g-W5y" id="dLE-ul-5xg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0d1-oX-d7t" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="960.86956521739137" y="1642.663043478261"/>
+        </scene>
+        <!--gameOver-->
+        <scene sceneID="xZf-7u-eqB">
+            <objects>
+                <viewController id="tJb-wc-dT1" userLabel="gameOver" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kLQ-ZY-zEw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FEL!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JH6-i5-hqZ">
+                                <rect key="frame" x="142" y="233" width="131" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Matiz" family="Matiz" pointSize="60"/>
+                                <color key="textColor" red="0.60552668570000001" green="0.33400845530000001" blue="0.30978977680000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Trist, men nu blev det" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U2j-xk-8To">
+                                <rect key="frame" x="88" y="73" width="239" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="OverpassMono-Regular" family="Overpass Mono" pointSize="30"/>
+                                <color key="textColor" red="0.8744159937" green="0.86666518449999996" blue="0.86666673419999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Din poäng: 12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gRA-7C-j7a">
+                                <rect key="frame" x="72" y="330" width="271" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="OverpassMono-Regular" family="Overpass Mono" pointSize="30"/>
+                                <color key="textColor" red="0.8744159937" green="0.86666518449999996" blue="0.86666673419999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pokal" translatesAutoresizingMaskIntoConstraints="NO" id="y6C-kg-Kkj">
+                                <rect key="frame" x="88" y="466" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1614813165" green="0.15958550190000001" blue="0.20790652279999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="sg0-LB-bpo"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kfz-xm-QSy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1799" y="1643"/>
+        </scene>
+        <!--info-->
+        <scene sceneID="KVh-bt-Ney">
+            <objects>
+                <viewController id="8HF-XX-qxV" userLabel="info" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YdU-4d-Mxd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hand" translatesAutoresizingMaskIntoConstraints="NO" id="3W2-Q8-HTU">
+                                <rect key="frame" x="157" y="487" width="100" height="100"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SVARA PÅ SÅ MÅNGA FRÅGOR  SOM MÖJLIGT I  FÖLJD. DU HAR 10  SEKUNDER PÅ DIG ATT SVARA PÅ  VARJE FRÅGA.  LYCKA TILL!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AN9-Bq-hXd">
+                                <rect key="frame" x="74.333333333333343" y="126" width="265.66666666666663" height="280"/>
+                                <fontDescription key="fontDescription" name="Matiz" family="Matiz" pointSize="28"/>
+                                <color key="textColor" red="0.8744159937" green="0.86666518449999996" blue="0.86666673419999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.12313578415116122" green="0.12093568642065231" blue="0.15936591366294406" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="d2D-w2-vuI" firstAttribute="bottom" secondItem="3W2-Q8-HTU" secondAttribute="bottom" constant="100" id="SGD-5F-MV5"/>
+                            <constraint firstItem="3W2-Q8-HTU" firstAttribute="top" secondItem="AN9-Bq-hXd" secondAttribute="bottom" constant="81" id="f5Q-mJ-oMW"/>
+                            <constraint firstItem="3W2-Q8-HTU" firstAttribute="top" secondItem="AN9-Bq-hXd" secondAttribute="bottom" constant="81" id="uNK-Uk-XW8"/>
+                            <constraint firstItem="3W2-Q8-HTU" firstAttribute="centerX" secondItem="YdU-4d-Mxd" secondAttribute="centerX" id="wou-Hz-SAe"/>
+                            <constraint firstItem="AN9-Bq-hXd" firstAttribute="centerX" secondItem="YdU-4d-Mxd" secondAttribute="centerX" id="ydE-31-Pv0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="d2D-w2-vuI"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="info.circle" catalog="system" id="JIz-uS-n5w"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Eit-EQ-Suf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="107" y="836"/>
+        </scene>
+        <!--menu-->
+        <scene sceneID="aeU-6g-iPf">
+            <objects>
+                <viewController id="1Db-yj-Uc2" userLabel="menu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1nv-bo-hAP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SANT ELLER FALSKT" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NWc-ge-lOp">
+                                <rect key="frame" x="90.333333333333329" y="80" width="233.33333333333337" height="180"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" name="Matiz" family="Matiz" pointSize="60"/>
+                                <color key="textColor" red="0.8744159937" green="0.86666518449999996" blue="0.86666673419999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="5RR-2F-ahP">
+                                <rect key="frame" x="81" y="423" width="252" height="178"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2YM-uy-x4o">
+                                        <rect key="frame" x="0.0" y="0.0" width="252" height="56"/>
+                                        <fontDescription key="fontDescription" name="OverpassMono-Regular" family="Overpass Mono" pointSize="34"/>
+                                        <state key="normal" title="MATEMATIK">
+                                            <color key="titleColor" red="0.8744159937" green="0.86666518449999996" blue="0.86666673419999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u2I-OW-F4Q">
+                                        <rect key="frame" x="0.0" y="61" width="252" height="56"/>
+                                        <fontDescription key="fontDescription" name="OverpassMono-Regular" family="Overpass Mono" pointSize="34"/>
+                                        <state key="normal" title="RÄTTSTAVNING">
+                                            <color key="titleColor" red="0.8744159937" green="0.86666518449999996" blue="0.86666673419999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="N9q-zr-jhl" kind="presentation" modalTransitionStyle="coverVertical" id="oSz-uU-eFw"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BHX-2U-UCY">
+                                        <rect key="frame" x="0.0" y="122" width="252" height="56"/>
+                                        <fontDescription key="fontDescription" name="OverpassMono-Regular" family="Overpass Mono" pointSize="34"/>
+                                        <state key="normal" title="ENGELSKA">
+                                            <color key="titleColor" red="0.8744159937" green="0.86666518449999996" blue="0.86666673419999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons-mask_filled" translatesAutoresizingMaskIntoConstraints="NO" id="b13-zO-Iyg">
+                                <rect key="frame" x="157" y="268" width="100" height="100"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1231357842" green="0.12093568640000001" blue="0.1593659137" alpha="0.95079730308219179" colorSpace="custom" customColorSpace="displayP3"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="5RR-2F-ahP" firstAttribute="centerX" secondItem="1nv-bo-hAP" secondAttribute="centerX" id="4UX-bf-NBA"/>
+                            <constraint firstItem="b13-zO-Iyg" firstAttribute="centerX" secondItem="1nv-bo-hAP" secondAttribute="centerX" id="6Bg-XI-gZA"/>
+                            <constraint firstItem="b13-zO-Iyg" firstAttribute="top" secondItem="NWc-ge-lOp" secondAttribute="bottom" constant="8" id="XW8-UP-UhG"/>
+                            <constraint firstItem="5RR-2F-ahP" firstAttribute="top" secondItem="b13-zO-Iyg" secondAttribute="bottom" constant="55" id="fmd-s9-2t1"/>
+                            <constraint firstItem="NWc-ge-lOp" firstAttribute="centerX" secondItem="1nv-bo-hAP" secondAttribute="centerX" id="kek-Lu-ALN"/>
+                            <constraint firstItem="NWc-ge-lOp" firstAttribute="top" secondItem="hr1-Pa-f72" secondAttribute="top" constant="80" id="nlD-7p-cP2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hr1-Pa-f72"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="spela" id="4F3-kV-tUh">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-33"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Nt-Ys-L2l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="962" y="836"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="f6F-2D-1ht">
+            <objects>
+                <tabBarController id="nGo-Qf-Eab" sceneMemberID="viewController">
+                    <tabBar key="tabBar" clipsSubviews="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" itemPositioning="fill" translatesAutoresizingMaskIntoConstraints="NO" id="lmN-2F-GwF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.8744159937" green="0.86666518449999996" blue="0.86666673419999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="barTintColor" red="0.1614813165" green="0.15958550190000001" blue="0.20790652279999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="8HF-XX-qxV" kind="relationship" relationship="viewControllers" id="k3u-hS-Flu"/>
+                        <segue destination="1Db-yj-Uc2" kind="relationship" relationship="viewControllers" id="6yV-MN-poU"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="aEH-au-UFH"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ece-nA-VDG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="963" y="78"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="falsktButton" width="304" height="64"/>
+        <image name="hand" width="100" height="100"/>
+        <image name="icons-mask_filled" width="100" height="100"/>
+        <image name="info.circle" catalog="system" width="64" height="60"/>
+        <image name="pokal" width="83" height="98"/>
+        <image name="rensa" width="240" height="53"/>
+        <image name="santButton" width="304" height="64"/>
+        <image name="spela" width="110" height="44"/>
+        <image name="waveform.path.ecg" catalog="system" width="64" height="62"/>
+    </resources>
+</document>
