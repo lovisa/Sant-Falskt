@@ -17,7 +17,13 @@ class HighScoreVC: UIViewController {
     @IBOutlet weak var quizName: UILabel!
     @IBOutlet weak var score: UILabel!
     
+    var result : Int?
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        //score.text = String(result!)
+    }
     
     
   /*

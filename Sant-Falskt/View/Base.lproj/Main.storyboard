@@ -93,14 +93,14 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SENASTE SPEL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Oq-Jq-O37">
-                                <rect key="frame" x="112.00000000000001" y="388" width="190.33333333333337" height="26"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SENASTE SPEL:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Oq-Jq-O37">
+                                <rect key="frame" x="107" y="388" width="200" height="26"/>
                                 <fontDescription key="fontDescription" name="Matiz" family="Matiz" pointSize="26"/>
                                 <color key="textColor" red="0.92049264649999996" green="0.91604582209999996" blue="0.92493947089999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="65" translatesAutoresizingMaskIntoConstraints="NO" id="sbU-Pc-QJa">
-                                <rect key="frame" x="96.333333333333329" y="424" width="221.33333333333337" height="29.333333333333314"/>
+                                <rect key="frame" x="96.333333333333329" y="428" width="221.33333333333337" height="29.333333333333314"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MATEMATIK" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vfV-VK-XhB">
                                         <rect key="frame" x="0.0" y="0.0" width="127.66666666666667" height="29.333333333333332"/>
@@ -126,13 +126,13 @@
                             <constraint firstItem="xzZ-d9-dmq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="110" id="aGp-jL-A3q"/>
                             <constraint firstItem="3Oq-Jq-O37" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ewS-73-qEg"/>
                             <constraint firstItem="3Oq-Jq-O37" firstAttribute="top" secondItem="FFe-sC-o6V" secondAttribute="bottom" constant="80" id="fKt-nt-UMh"/>
-                            <constraint firstItem="sbU-Pc-QJa" firstAttribute="top" secondItem="3Oq-Jq-O37" secondAttribute="bottom" constant="10" id="hTp-uU-GZg"/>
+                            <constraint firstItem="sbU-Pc-QJa" firstAttribute="top" secondItem="3Oq-Jq-O37" secondAttribute="bottom" constant="14" id="hTp-uU-GZg"/>
                             <constraint firstItem="xzZ-d9-dmq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="obc-3o-5w3"/>
                             <constraint firstItem="sbU-Pc-QJa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uMx-N1-EP7"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="waveform.path.ecg" catalog="system" id="cNA-O9-FKo"/>
+                    <tabBarItem key="tabBarItem" tag="2" title="" image="waveform.path.ecg" catalog="system" id="cNA-O9-FKo"/>
                     <navigationItem key="navigationItem" id="P7h-Cu-VxY"/>
                     <connections>
                         <outlet property="englishHighScore" destination="ORg-p6-wKy" id="vih-RY-ONx"/>
@@ -209,10 +209,10 @@
                                 <rect key="frame" x="329" y="58" width="30" height="46"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="22"/>
                                 <state key="normal" title="X">
-                                    <color key="titleColor" red="0.8744159937" green="0.86666518449999996" blue="0.86666673419999996" alpha="0.74526434075342463" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="titleColor" red="0.87450980392156863" green="0.8666666666666667" blue="0.8666666666666667" alpha="0.75" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <action selector="cancelGame:" destination="N9q-zr-jhl" eventType="touchUpInside" id="PBU-2p-Gd0"/>
+                                    <action selector="cancelGame:" destination="N9q-zr-jhl" eventType="touchUpInside" id="fNl-9w-xCb"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -243,7 +243,7 @@
                         <outlet property="questionLabel" destination="ejK-Ic-zNR" id="fxu-aV-Tcf"/>
                         <outlet property="timerBar" destination="3Bk-n8-oV5" id="WxC-jR-hla"/>
                         <outlet property="trueButton" destination="5gb-4g-W5y" id="dLE-ul-5xg"/>
-                        <segue destination="tJb-wc-dT1" kind="show" identifier="wrongAnswer" id="ASe-76-6vM"/>
+                        <segue destination="tJb-wc-dT1" kind="presentation" identifier="wrongAnswer" id="ASe-76-6vM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0d1-oX-d7t" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -253,7 +253,7 @@
         <!--gameOver-->
         <scene sceneID="xZf-7u-eqB">
             <objects>
-                <viewController id="tJb-wc-dT1" userLabel="gameOver" sceneMemberID="viewController">
+                <viewController id="tJb-wc-dT1" userLabel="gameOver" customClass="WrongAnswerVC" customModule="Sant_Falskt" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kLQ-ZY-zEw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -290,11 +290,25 @@
                                 <color key="textColor" red="0.8744159937" green="0.86666518449999996" blue="0.86666673419999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LGt-fz-sD0">
+                                <rect key="frame" x="329" y="58" width="30" height="46"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="22"/>
+                                <state key="normal" title="X">
+                                    <color key="titleColor" red="0.68631076810000002" green="0.67818939690000002" blue="0.69019788500000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.1614813165" green="0.15958550190000001" blue="0.20790652279999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="LGt-fz-sD0" secondAttribute="trailing" constant="35" id="2ry-iK-S0g"/>
+                            <constraint firstItem="LGt-fz-sD0" firstAttribute="top" secondItem="sg0-LB-bpo" secondAttribute="top" constant="58" id="3Db-jH-AXs"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="sg0-LB-bpo"/>
                     </view>
                     <navigationItem key="navigationItem" id="RbF-Qc-HDN"/>
+                    <connections>
+                        <outlet property="scoreLabel" destination="6yF-DT-xdL" id="4v2-9p-sNI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kfz-xm-QSy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -367,7 +381,7 @@
                                             <color key="titleColor" red="0.8744159937" green="0.86666518449999996" blue="0.86666673419999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
-                                            <segue destination="N9q-zr-jhl" kind="presentation" modalTransitionStyle="coverVertical" id="oSz-uU-eFw"/>
+                                            <segue destination="N9q-zr-jhl" kind="presentation" id="oSz-uU-eFw"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BHX-2U-UCY">
@@ -395,9 +409,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="hr1-Pa-f72"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="spela" id="4F3-kV-tUh">
+                    <tabBarItem key="tabBarItem" tag="1" title="" image="spela" id="4F3-kV-tUh">
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-33"/>
                     </tabBarItem>
+                    <navigationItem key="navigationItem" id="g7f-lz-Xge"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Nt-Ys-L2l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -407,6 +422,7 @@
         <scene sceneID="f6F-2D-1ht">
             <objects>
                 <tabBarController id="nGo-Qf-Eab" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="RZD-r6-D3k"/>
                     <tabBar key="tabBar" clipsSubviews="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" itemPositioning="fill" translatesAutoresizingMaskIntoConstraints="NO" id="lmN-2F-GwF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>

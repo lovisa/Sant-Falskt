@@ -42,21 +42,28 @@ class GameViewController : UIViewController {
             startTimer()
             
         } else {
+            //performSegue(withIdentifier: "highScore", sender: self)
             self.performSegue(withIdentifier: "wrongAnswer", sender: self)
             // ljud + vibrera
             // skicka points till highscore screen
             // gå till highscore screen
         }
+        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-           if segue.identifier == "wrongAnswer" {
+            /*if segue.identifier == "highScore" {
+             // send score to HighScore
+            let destinationVC = segue.destination as! HighScoreVC
+            destinationVC.result = quizMachine.getPoint()*/
+        
+            if segue.identifier == "wrongAnswer" {
                // send score to WrongAnswer
-    //           let destinationVC = segue.destination as! WrongAnswerVC
-  //          destinationVC.bmiValue = quizMachine.getPoint()
+              let destinationVC = segue.destination as! WrongAnswerVC
+              destinationVC.result = quizMachine.getPoint()
            }
     }
-        // liten test kommentar för att testa git
+        
     func startTimer() {
         timerBar.progress = 0.0
         progress.completedUnitCount = 0
@@ -83,14 +90,10 @@ class GameViewController : UIViewController {
         
     }
     
-    
-    
-    
-    
-    
-        func cancelGame(_ sender: Any) {
-       dismiss(animated: true, completion: nil)
+    @IBAction func cancelGame(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
     }
+    
 }
 
 

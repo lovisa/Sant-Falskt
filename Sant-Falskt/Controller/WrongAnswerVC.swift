@@ -9,14 +9,24 @@
 import UIKit
 
 class WrongAnswerVC: UIViewController {
-
+    
+    @IBOutlet weak var scoreLabel: UILabel!
+    
+    var result : Int?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        scoreLabel.text = String(result!)
     }
     
-
+    @IBAction func cancelWrongAnswer(_ sender: Any) {
+        
+    }
+    
+    
+    
+    
     /*
     // MARK: - Navigation
 
