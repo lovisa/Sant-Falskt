@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BB13F22323FD7475009A1391 /* MathQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB13F22223FD7474009A1391 /* MathQuiz.swift */; };
-		BB13F22523FEC4FE009A1391 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB13F22423FEC4FE009A1391 /* MainTabController.swift */; };
 		BB60D63B240526F4004C454F /* WrongAnswerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB60D63A240526F4004C454F /* WrongAnswerVC.swift */; };
+		BB60D63D2407F3B1004C454F /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB60D63C2407F3B1004C454F /* MenuVC.swift */; };
+		BB60D63F240821A6004C454F /* IntroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB60D63E240821A6004C454F /* IntroVC.swift */; };
 		BB7A739323F5DD2100FFA520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB8AF6A223E35AE9002C63A0 /* Main.storyboard */; };
 		BB7A739723F60EC600FFA520 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7A739623F60EC600FFA520 /* Question.swift */; };
 		BB7A739923F62BC000FFA520 /* HighScoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7A739823F62BC000FFA520 /* HighScoreVC.swift */; };
 		BB7A739E23F74C9400FFA520 /* QuizMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7A739D23F74C9400FFA520 /* QuizMachine.swift */; };
 		BB7B4D4423F34F52009812AC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7B4D4323F34F51009812AC /* Extensions.swift */; };
-		BB7B4D4623F377A2009812AC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7B4D4523F377A2009812AC /* GameViewController.swift */; };
+		BB7B4D4623F377A2009812AC /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7B4D4523F377A2009812AC /* GameVC.swift */; };
 		BB8AF69D23E35AE9002C63A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8AF69C23E35AE9002C63A0 /* AppDelegate.swift */; };
 		BB8AF69F23E35AE9002C63A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8AF69E23E35AE9002C63A0 /* SceneDelegate.swift */; };
 		BB8AF6A723E35AE9002C63A0 /* Sant_Falskt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB8AF6A523E35AE9002C63A0 /* Sant_Falskt.xcdatamodeld */; };
@@ -50,14 +50,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BB13F22223FD7474009A1391 /* MathQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathQuiz.swift; sourceTree = "<group>"; };
-		BB13F22423FEC4FE009A1391 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
 		BB60D63A240526F4004C454F /* WrongAnswerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrongAnswerVC.swift; sourceTree = "<group>"; };
+		BB60D63C2407F3B1004C454F /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		BB60D63E240821A6004C454F /* IntroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroVC.swift; sourceTree = "<group>"; };
 		BB7A739623F60EC600FFA520 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		BB7A739823F62BC000FFA520 /* HighScoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoreVC.swift; sourceTree = "<group>"; };
 		BB7A739D23F74C9400FFA520 /* QuizMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizMachine.swift; sourceTree = "<group>"; };
 		BB7B4D4323F34F51009812AC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		BB7B4D4523F377A2009812AC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		BB7B4D4523F377A2009812AC /* GameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
 		BB8AF69923E35AE9002C63A0 /* Sant-Falskt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sant-Falskt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB8AF69C23E35AE9002C63A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB8AF69E23E35AE9002C63A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -110,7 +110,6 @@
 			isa = PBXGroup;
 			children = (
 				BB7A739623F60EC600FFA520 /* Question.swift */,
-				BB13F22223FD7474009A1391 /* MathQuiz.swift */,
 				BB7A739D23F74C9400FFA520 /* QuizMachine.swift */,
 			);
 			path = Model;
@@ -128,9 +127,10 @@
 		BB7A739C23F74BCB00FFA520 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				BB7B4D4523F377A2009812AC /* GameViewController.swift */,
+				BB60D63E240821A6004C454F /* IntroVC.swift */,
+				BB60D63C2407F3B1004C454F /* MenuVC.swift */,
+				BB7B4D4523F377A2009812AC /* GameVC.swift */,
 				BB7A739823F62BC000FFA520 /* HighScoreVC.swift */,
-				BB13F22423FEC4FE009A1391 /* MainTabController.swift */,
 				BB60D63A240526F4004C454F /* WrongAnswerVC.swift */,
 			);
 			path = Controller;
@@ -362,12 +362,12 @@
 				BB7A739E23F74C9400FFA520 /* QuizMachine.swift in Sources */,
 				BB60D63B240526F4004C454F /* WrongAnswerVC.swift in Sources */,
 				BB7B4D4423F34F52009812AC /* Extensions.swift in Sources */,
-				BB7B4D4623F377A2009812AC /* GameViewController.swift in Sources */,
+				BB7B4D4623F377A2009812AC /* GameVC.swift in Sources */,
 				BB8AF69D23E35AE9002C63A0 /* AppDelegate.swift in Sources */,
+				BB60D63F240821A6004C454F /* IntroVC.swift in Sources */,
 				BB8AF6A723E35AE9002C63A0 /* Sant_Falskt.xcdatamodeld in Sources */,
-				BB13F22323FD7475009A1391 /* MathQuiz.swift in Sources */,
+				BB60D63D2407F3B1004C454F /* MenuVC.swift in Sources */,
 				BB7A739723F60EC600FFA520 /* Question.swift in Sources */,
-				BB13F22523FEC4FE009A1391 /* MainTabController.swift in Sources */,
 				BB7A739923F62BC000FFA520 /* HighScoreVC.swift in Sources */,
 				BB8AF69F23E35AE9002C63A0 /* SceneDelegate.swift in Sources */,
 			);
